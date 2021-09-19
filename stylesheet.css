@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #082032;
+    padding: 100px;
+}
+.container{
+    font-family: Sofia,Arial, Helvetica, sans-serif,serif, fantasy;
+    min-width: 100%;
+}
+.heading{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/*header styling*/
+.header{
+    background-image: url('image/header-bg-img-1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    color: aliceblue;
+    padding: 20px 200px;
+}
+.nav{
+    text-align: center;
+    font-size: small;
+    display: block;
+    margin-bottom: 20%;
+}
+.logo{
+    float: left;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.nav a{color:white; padding: 0px 2px;}
+
+.nav a:hover{color:goldenrod;}
+
+.right{float: right;padding: 10px;}
+
+.main-header-body{max-width: 50%; margin-bottom: 20%;}
+
+.header-row-1{ text-align: left; font-weight: bold; font-size: 25px; color: aliceblue;}
+
+.header-row-2{text-align: left;font-size: 20px;color: aliceblue;}
+
+.button input[type=button]{width: 30%; padding: 8px 16px;}
+a{
+    text-decoration: none;
+}
+
+/*home styling*/
+.home{
+    background-color: white;
+    min-height: 100%;
+    padding: 50px 200px;
+}
+.col-50 p{
+    font-size: 20px; color: darkslategray;padding-top: 20px;
+}
+#umbrella{padding-left:100px;}
+.dot{
+    height: 100px;
+    width: 100px;
+    background-color:rgba(115, 37, 172, 0.849);
+    background-position: center top;
+    border-radius: 50%;
+    display: inline-block;
+}
+.home .col-33{
+    text-align: center; padding: 10px 40px;
+}
+.home .col-33 p{color: darkslategray}
+
+/*Project styling*/
+.project{
+    min-height: 100%; background-color: aliceblue; padding-bottom: 20px;
+}
+.project-text{
+    background-color: rgb(224, 181, 70); padding: 50px;
+}
+.project-text :nth-child(){
+    background-color: gray;
+}
+.project-text input[type=button]{
+    width: 75%; padding: 10px 15px; height: 30%;
+}
+
+/*Pricing Table*/
+.pricing{
+    background-color: white; width:100%;padding: 20px 200px;
+}
+.pricing .col-33{
+    text-align: center; padding: 10px 40px;
+}
+.pricing input[type=button]{
+    width: 90px; padding: 7px 14px; height: 30px;
+}
+.pricing h4{color: black;}
+.pricing h5{color: grey;}
+
+/*Video*/
+.video-project{
+    background-color: #BFA2DB; width: 100%; padding:30px 0px;
+}
+.video{
+    padding: 6px;
+}
+/*Team*/
+.team{
+    background-color: aliceblue; padding: 20px 200px; width: 100%;
+}
+
+
+
+/*life*/
+.life{
+    background-color: aliceblue;
+    padding: 20px 200px;
+    width: 100%;
+}
+.newsletter{
+    width: 100%; height: 100%; 
+}
+.newsletter-bg{
+    background-image: url('image/bridge.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px 250px;
+}
+.life-bg{
+    position: relative;
+}
+.mySlides{
+    display: none;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.life-button{height: 100%; width: 50%;}
+
+/*blog*/
+.blog{
+    background-color: aliceblue; padding: 20px 200px;
+}
+.blog .col-33{
+    padding: 8px 4px; text-align: center;
+}
+.blog h3{
+    color: black;font-weight: bolder;
+}
+.blog h4{
+    color: grey; font-weight: bold;
+}
+.blog p{
+    color: lightslategray;font-size: 10px;
+}
+
+
+/*contact*/
+.contact{
+    background-color: aliceblue;
+    width: 100%;
+    padding: 1px 0px;
+}
+.contact .bg{
+    background-color: #BFA2DB;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.contact .bg-text{
+    text-align: center;
+    padding: 140px ;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.form-container{
+    min-width: 100%;
+    background-color: #87A8A4;
+    padding: 16px 32px;
+}
+label{text-align: left; color: black;font-size: 15px;font-weight: bold;}
+input[type=text], input[type=email], input[type=number],input[type=textarea]
+{
+    background-color: aliceblue;width: 100%;height: 50px;padding: 16px 32px;
+} 
+input[type=button], input[type=submit]
+{
+    border-radius: 8px;
+    color: aliceblue; background-color: indigo;padding: 16px 32px;margin: 10px 0px;cursor:pointer;width: 100%;height: 50px;
+}
+input[type=button]:hover, input[type=submit]:hover{background-color: goldenrod;}
+textarea{background-color: aliceblue;width: 100%;height: 150px; padding: 16px 32px;}
+
+.button{
+    width: 100%;
+    height: 70%;
+    border-radius: 8px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.col-50{
+    flex:50%;
+}
+.col-33{
+    flex:33%;
+}
+.col-25{
+    flex: 25%;
+}
+.col-5{
+    flex: 5%; margin: 0px 1px;
+}
+.col-15{
+    flex: 15%; margin: 0px 1px;
+}
+.col-70{flex: 70%; padding-top: 11px;}
+.col-30{
+    flex: 30%;
+}
+.footer{
+    background-color: white; padding: 20px 200px; width: 100%;
+}
+.footer .col-33{
+    text-align: center; padding: 10px 40px;
+}
+.footer h4{
+    color:black; text-align: center;
+}
+.footer p{
+    color: grey; font-size: 10px; font-weight: bolder;
+}
+ul{list-style-type: none;}
+li{ font-size: 10px; color: grey; text-align: center;font-weight: bolder;}
